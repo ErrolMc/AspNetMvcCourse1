@@ -67,6 +67,7 @@ namespace AspNetMvcCourse.Controllers
             ViewBag.StudentName = "Scott";
             ViewBag.Marks = 80;
             ViewBag.NoOfSemesters = 6;
+            ViewBag.Subjects = new List<string>() { "Maths", "Physics", "Chemistry" };
 
             return View();
         }

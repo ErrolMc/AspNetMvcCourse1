@@ -24,6 +24,18 @@
         </ul>
     </nav>
 
+    @{ 
+        string studentResult;
+        if (ViewBag.Marks >= 35)
+        {
+            studentResult = "Pass";
+        }
+        else
+        {
+            studentResult = "Fail";
+        }
+    }
+
     <div class="container-fluid">
         <table class="table">
             <tr>
@@ -37,6 +49,10 @@
             <tr>
                 <td>Marks</td>
                 <td>@ViewBag.Marks</td>
+            </tr>
+            <tr>
+                <td>Result</td>
+                <td>@studentResult</td>
             </tr>
         </table>
     </div>

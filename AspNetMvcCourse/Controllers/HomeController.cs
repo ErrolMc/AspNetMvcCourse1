@@ -60,5 +60,14 @@ namespace AspNetMvcCourse.Controllers
             string url = "http://www.facebook.com/emp" + employeeID;
             return Redirect(url);
         }
+
+        public ActionResult StudentDetails()
+        {
+            ViewBag.StudentId = 101;
+            ViewBag.StudentName = "Scott";
+            ViewBag.Marks = 80;
+
+            return View();
+        }
     }
 }

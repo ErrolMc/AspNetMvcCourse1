@@ -231,6 +231,7 @@
     <Content Include="Views\Home\OurCompanyProducts.cshtml" />
     <Content Include="Views\Account\InvalidLogin.cshtml" />
     <Content Include="Views\Admin\Dashboard.cshtml" />
+    <Content Include="Views\Home\StudentDetails.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
